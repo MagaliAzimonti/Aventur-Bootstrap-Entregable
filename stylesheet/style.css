@@ -1,0 +1,79 @@
+/* font-family:'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Mulish:wght@200&display=swap');
+
+/* ESTILOS HEADER */
+
+header {
+    background-image: url(../images/wallpaper_azul_oscuro_1920x1200_124.jpeg)
+}
+
+.header__title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+
+/* ESTILOS HOME */
+.home__images img {
+    height: 200px;
+}
+
+
+/* Carousel */
+
+#carousel1 {
+    height: 230px;
+    background-image: url(../images/1_kfoZJqoU5IDWz-u7ZclDtQ.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+#carousel2 {
+    height: 230px;
+    background-image: url(../images/image\ 2\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#carousel3 {
+    height: 230px;
+    background-image: url(../images/home\ image3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#carousel4 {
+    height: 230px;
+    background-image: url(../images/home\ image4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Media queries */
+@media screen and (min-width: 780px) {
+    #carousel1 {
+        height: 400px;
+
+    }
+    #carousel2 {
+        height: 400px;
+
+    }
+    #carousel3 {
+        height: 400px;
+
+    }
+    #carousel4 {
+        height: 400px;
+
+    }
+}
+
+
+/* ESTILOS CONTACTO */
+
+.contact__title {
+    padding-top: 70px;
+}
+
+.textarea__contact textarea {
+    resize: none;
+}
